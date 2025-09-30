@@ -10,7 +10,7 @@
 # TOTAL: 21
 payload:
 - PROCESS-NAME,syncthing
-- PROCESS-NAME,syncthing.exe,
+- PROCESS-NAME,syncthing.exe
 - DOMAIN,discovery.syncthing.net
 - DOMAIN,discovery-v4.syncthing.net
 - DOMAIN,discovery-v6.syncthing.net
