@@ -1,0 +1,28 @@
+# NAME: ZeroTier
+# AUTHOR: arkxfly
+# REPO: https://github.com/arkxfly/rules
+# REFER: https://zerotier.atlassian.net/wiki/spaces/SD/pages/7241732/Root+Server+IP+Addresses
+# UPDATED: 2023-10-06 18:49:05
+# DOMAIN: 5
+# IP-CIDR: 5
+# IP-CIDR6: 5
+# PROCESS-NAME: 2
+# TOTAL: 16
+payload:
+- DOMAIN,root-lax-01.zerotier.com
+- DOMAIN,root-mia-01.zerotier.com
+- DOMAIN,root-sgp-01.zerotier.com
+- DOMAIN,root-zrh-01.zerotier.com
+- DOMAIN,root-alice-sfo-01.zerotier.com
+- IP-CIDR,104.194.8.134/32                        # root-lax-01.zerotier.com
+- IP-CIDR6,2605:9880:200:1200:30:571:e34:51/128   # root-lax-01.zerotier.com
+- IP-CIDR,103.195.103.66/32                       # root-mia-01.zerotier.com
+- IP-CIDR6,2605:9880:400:c3:254:f2bc:a1f7:19/128  # root-mia-01.zerotier.com
+- IP-CIDR,50.7.252.138/32                         # root-sgp-01.zerotier.com
+- IP-CIDR6,2001:49f0:d0db:2::2/128                # root-sgp-01.zerotier.com
+- IP-CIDR,84.17.53.155/32                         # root-zrh-01.zerotier.com
+- IP-CIDR6,2a02:6ea0:d405::9993/128               # root-zrh-01.zerotier.com
+- IP-CIDR,107.170.197.14/32                       # root-alice-sfo-01.zerotier.com
+- IP-CIDR6,2604:a880:1:20::200:e001/128           # root-alice-sfo-01.zerotier.com
+- PROCESS-NAME,zerotier-one
+- PROCESS-NAME,zerotier-one_x64.exe
