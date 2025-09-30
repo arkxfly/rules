@@ -1,0 +1,11 @@
+{
+  "rules": [
+    {
+        "package_name": [
+            "com.baidu.input",
+            "com.sougou.inputmethod.sogou",
+            "com.sougou.inputmethod.sogou.nubia"
+        ]
+    }
+  ]
+}
