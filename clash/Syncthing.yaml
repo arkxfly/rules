@@ -1,0 +1,32 @@
+# NAME: Syncthing
+# AUTHOR: arkxfly
+# REPO: https://github.com/arkxfly/rules
+# REFER: https://github.com/syncthing/syncthing/blob/ac2e444a97cb8ec3d2f899aa718031c55fbbfdcc/lib/config/config.go#L56
+# UPDATED: 2023-10-06 18:58:05
+# DOMAIN: 19
+# IP-CIDR: 0
+# IP-CIDR6: 0
+# PROCESS-NAME: 2
+# TOTAL: 21
+payload:
+- PROCESS-NAME,syncthing
+- PROCESS-NAME,syncthing.exe,
+- DOMAIN,discovery.syncthing.net
+- DOMAIN,discovery-v4.syncthing.net
+- DOMAIN,discovery-v6.syncthing.net
+- DOMAIN,stun.syncthing.net
+- DOMAIN,relays.syncthing.net
+- DOMAIN,stun.callwithus.com
+- DOMAIN,stun.counterpath.com
+- DOMAIN,stun.counterpath.net
+- DOMAIN,stun.ekiga.net
+- DOMAIN,stun.ideasip.com
+- DOMAIN,stun.internetcalls.com
+- DOMAIN,stun.schlund.de
+- DOMAIN,stun.sipgate.net
+- DOMAIN,stun.sipgate.net
+- DOMAIN,stun.voip.aebc.com
+- DOMAIN,stun.voiparound.com
+- DOMAIN,stun.voipbuster.com
+- DOMAIN,stun.voipstunt.com
+- DOMAIN,stun.xten.com
