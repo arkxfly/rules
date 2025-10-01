@@ -1,0 +1,6 @@
+# NAME: ifconfig
+payload:
+- DOMAIN-SUFFIX,ifconfig.me
+- DOMAIN-SUFFIX,ifconfig.co
+- DOMAIN-SUFFIX,ip.gs
+- DOMAIN-SUFFIX,ip.sb
