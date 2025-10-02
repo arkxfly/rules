@@ -2,10 +2,11 @@
   "version": 3,
   "rules": [
     {
-        "domain_suffix": [
-            ".visualstudio.com",
-            ".vscode.download.prss.microsoft.com"
-        ]
+      "domain_suffix": [
+        "visualstudio.com",
+        "vscode.download.prss.microsoft.com",
+        "main.vscode-cdn.net"
+      ]
     }
   ]
 }
