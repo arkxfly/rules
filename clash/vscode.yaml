@@ -2,3 +2,4 @@ payload:
 - DOMAIN-SUFFIX,visualstudio.com
 - DOMAIN-SUFFIX,vscode.download.prss.microsoft.com
 - DOMAIN-SUFFIX,main.vscode-cdn.net
+- DOMAIN-SUFFIX,gallery.vsassets.io
